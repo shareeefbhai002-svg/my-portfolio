@@ -20,7 +20,7 @@ connectDB();
 
 //routes
 app.get("/", (req, res) => {
-  res.send("APi is running completeldy fine")
+  res.send( "API is running completely fine")
 })
   
 app.use("/api/auth" , authRouter)
@@ -32,5 +32,7 @@ if(process.env.NODE_ENV === "development") {
 }
 export default app;
 
+
+ 
 
  
